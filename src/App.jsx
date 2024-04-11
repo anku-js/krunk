@@ -1,9 +1,12 @@
 import "./App.css";
+import UserDetail from "./components/UserDetail/UserDetail";
 
 function App() {
   return (
     <div className="app">
-      <div></div>
+      <div className="mobile-container">
+        <UserDetail />
+      </div>
     </div>
   );
 }
