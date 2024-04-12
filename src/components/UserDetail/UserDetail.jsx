@@ -11,7 +11,7 @@ export default function UserDetail() {
         <div className="info">
           <div className="user-name-wrapper">
             <p className="user-name">Timpu</p>
-            <img src="Vector.png" alt="user is verified" className="vector" />
+            <img src="vector.png" alt="user is verified" className="vector" />
           </div>
           <p className="user-description">Chat assistant</p>
         </div>

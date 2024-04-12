@@ -1,13 +1,12 @@
 .messages-container {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  padding: 0 15px;
   gap: 20px;
 }
 .messages {
   display: flex;
   flex-direction: column;
-  gap: 5px;
 }
 .user1-message,
 .user2-message {
@@ -20,6 +19,7 @@
   box-sizing: border-box;
 }
 .user1-message {
+  margin-top: 20px;
   background: linear-gradient(100.24deg, #e6eeff 13.91%, #ffffff 116.73%);
 }
 .user2-message {
@@ -33,7 +33,9 @@
   font-weight: 400;
   line-height: 15px;
   margin-left: 10px;
+  margin-top: 5px;
 }
 .message-time2 {
+  margin-right: 10px;
   align-self: flex-end;
 }
