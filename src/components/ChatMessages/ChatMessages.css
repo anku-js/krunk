@@ -18,6 +18,7 @@
   padding: 10px 15px;
   border-radius: 15px;
   box-sizing: border-box;
+  color: #333333;
 }
 
 .bot-message {
@@ -43,4 +44,16 @@
 .message-time-user {
   margin-right: 10px;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .messages-container {
+    padding: 0 10px;
+  }
+  .message {
+    width: 85%;
+  }
+  .bot-message {
+    margin-top: 30px;
+  }
 }

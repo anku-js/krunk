@@ -1,10 +1,13 @@
+.filters-container {
+  margin: 10px 0 31px;
+}
+
 .filters-heading {
   display: flex;
   justify-content: space-between;
 }
 
 .select-filters {
-  margin-top: 10px;
   font-size: 13px;
   font-weight: 400;
   line-height: 19.5px;
