@@ -10,15 +10,24 @@
     #e6eeff 28.87%,
     rgba(230, 238, 255, 0) 103.1%
   );
-  height: 100vh;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
 .mobile-container {
   width: 360px;
-  margin: 0 auto;
+  margin: 100px auto;
   background-color: #fff;
   border-radius: 20px;
   padding: 10px;
+}
+.footer {
+  background: linear-gradient(
+    100.27deg,
+    #eff3fd 33.17%,
+    rgba(239, 243, 253, 0) 122.24%
+  );
+  border: 2px solid #ffffff;
+  border-radius: 0 0 20px 20px;
+  padding: 5px 10px;
 }

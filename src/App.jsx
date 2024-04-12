@@ -1,14 +1,23 @@
 import "./App.css";
-import UserDetail from "./components/UserDetail/UserDetail";
-import Messages from "./components/Messages/Messages";
-import Product from "./components/Product/Product";
+import BotDetail from "./components/BotDetail/BotDetail";
+import ChatMessages from "./components/ChatMessages/ChatMessages";
+import ProductWidget from "./components/ProductWidget/ProductWidget";
+import SendMessage from "./components/SendMessage/SendMessage";
+import Footer from "./components/Footer/Footer";
+import { chatBotInfo, chatMessages } from "./db";
+import { productInfo } from "./db";
+
 function App() {
   return (
     <div className="app">
       <div className="mobile-container">
-        <UserDetail />
-        <Messages />
-        <Product />
+        <BotDetail chatBotInfo={chatBotInfo} />
+        <ChatMessages chatMessages={chatMessages} />
+        <ProductWidget productInfo={productInfo} />
+        <div className="footer">
+          <SendMessage />
+          <Footer />
+        </div>
       </div>
     </div>
   );

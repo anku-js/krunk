@@ -1,0 +1,49 @@
+.send-message {
+  display: flex;
+  gap: 5px;
+}
+
+.message-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 10px 10px 20px;
+  border: 1px solid #e3ecff;
+  border-radius: 10px;
+  color: #949494;
+  width: 100%;
+}
+
+.message-input {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.message-input:focus {
+  outline: none;
+}
+
+.attachment-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.send-button {
+  cursor: pointer;
+  padding: 4px 30px;
+  border: none;
+  background: #4c82ef;
+  border-radius: 10px;
+}
+
+.send-icon {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  font-weight: 700;
+}

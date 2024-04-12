@@ -1,0 +1,18 @@
+.suggestion-by-chatbot {
+  margin: 20px 0 30px 0;
+}
+
+.product-suggestion {
+  width: 70%;
+  background: linear-gradient(114.92deg, #e6eeff 34.14%, #fafcff 105.26%);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.chat-message {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: #333333;
+  margin-top: 10px;
+}
